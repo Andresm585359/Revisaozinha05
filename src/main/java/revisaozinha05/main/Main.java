@@ -10,20 +10,13 @@ public class Main {
 	}
 
 	private void linkstartu() {
-		Scanner scan = new Scanner(System.in);
-		int valor = 1;
-		while (valor != 0) {
-			System.out.println("chuta um numero!(0 pra sair)");
-			valor = scan.nextInt();
-			switch (valor) {
+		for (int i = 0; i <= 5; i++) {
+			switch (i) {
 			case 1:
 				System.out.println("uau cagao da porra acerto mizeravi");
 				break;
 			case 4:
 				System.out.println("uau acertou a pedra secreta no seu caminho... incredible");
-				break;
-			case 0:
-				System.out.println("flw cuzao!");
 				break;
 
 			default:
